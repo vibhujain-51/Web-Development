@@ -78,5 +78,6 @@ var numComments = numComments || 5, avatarSize = avatarSize || 60, characters = 
         if (hideCredits == true) {
             hideCSS = "display:none;";
         }
-       
+        commentsHtml += "<span style=\"font-size:8px;display:block;text-align:right;" + hideCSS + "\"></span>";
+        document.write(commentsHtml);
     }

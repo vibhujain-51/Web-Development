@@ -73,4 +73,10 @@ var numComments = numComments || 5, avatarSize = avatarSize || 60, characters = 
 
         }
 
+        commentsHtml += "</ul>";
+        var hideCSS = "";
+        if (hideCredits == true) {
+            hideCSS = "display:none;";
+        }
+       
     }

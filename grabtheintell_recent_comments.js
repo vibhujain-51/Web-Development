@@ -78,6 +78,6 @@ var numComments = numComments || 5, avatarSize = avatarSize || 60, characters = 
         if (hideCredits == true) {
             hideCSS = "display:none;";
         }
-        commentsHtml += "<span style=\"font-size:8px;display:block;text-align:right;" + hideCSS + "\"><a href=\"https://grabtheintell.blogspot.com\" target=\"_blank\">Widget by Grab The Intell</a></span>";
+        commentsHtml += "<span style=\"font-size:8px;display:block;text-align:right;" + hideCSS + "\">>Widget by<a href=\"https://grabtheintell.blogspot.com\" target=\"_blank\" Grab The Intell</a></span>";
         document.write(commentsHtml);
     }
